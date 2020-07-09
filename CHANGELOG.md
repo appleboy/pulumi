@@ -15,6 +15,10 @@ CHANGELOG
 - Add internal scaffolding for using cross-language components from .NET.
   [#5485](https://github.com/pulumi/pulumi/pull/5485)
 
+- Add an import command to the Pulumi CLI. This command can be used to import existing resources
+  into a Pulumi stack.
+  [#4765](https://github.com/pulumi/pulumi/pull/4765)
+
 ## 2.11.2 (2020-10-01)
 
 - feat(autoapi): expose EnvVars LocalWorkspaceOption to set in ctor
